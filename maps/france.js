@@ -1,5 +1,7 @@
 const laRoche = "<div class='card'><h1>La Roche sur Yon</h1><ul><li><i class='material-icons'>phone</i> 02 44 40 41 45</li><li><i class='material-icons'>email</i>aprin@@arinfo.fr</li><li><i class='material-icons'>room</i>10, rue Pierre Bacqua - 85000 LA ROCHE/YON</li><li><i class='material-icons'>person</i>Responsable du centre M. Prin</li><li><i class='material-icons'>access_time</i>Ouvert du Lundi au vendredi / 9h00-12h30 et 13h30-17h00</li></ul><iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10949.750545200912!2d-1.4366631!3d46.6773629!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdc43a33df073e0f2!2sARINFO%20Roche%20Yon!5e0!3m2!1sfr!2sfr!4v1574108616778!5m2!1sfr!2sfr' width='400' height='300' frameborder='0' style='border:0' allowfullscreen=''></iframe></div>"
 const nantes = "<div class='card'><h1>Nantes</h1><ul><li><i class='material-icons'>phone</i>02 40 35 50 70</li><li><i class='material-icons'>email</i>formation@arinfo.fr</li><li><i class='material-icons'>room</i>8, rue Monteil - 44000 NANTES</li><li><i class='material-icons'>person</i>Chargée de clientèle Mme Le Borgne</li><li><i class='material-icons'>access_time</i>Ouvert du Lundi au vendredi / 9h00-12h30 et 13h30-17h00</li></ul><iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d21681.254619846848!2d-1.5568730582824701!3d47.21351363338742!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x88b7aee6e8708597!2sARINFO%20-%20I-maginer!5e0!3m2!1sfr!2sfr!4v1574105492962!5m2!1sfr!2sfr' width='400' height='300' frameborder='0' style='border:0;' allowfullscreen=''></iframe></div>"
+const paris = "<div class='card'><h1>Paris</h1><ul><li><i class='material-icons'>phone</i>01 45 77 85 03</li><li><i class='material-icons'>email</i>sroy@arinfo.fr</li><li><i class='material-icons'>room</i>19, rue Roger Bacon - 75017 PARIS </li><li><i class='material-icons'>person</i>Responsable du centre Mme Sandrine ROY</li><li><i class='material-icons'>access_time</i>Ouvert du Lundi au vendredi / 9h00-12h30 et 13h30-17h00</li></ul><iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10494.76439198087!2d2.2899802!3d48.883165!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbea75611d85ad099!2sARINFO%20PARIS!5e0!3m2!1sfr!2sfr!4v1574118530168!5m2!1sfr!2sfr' width='400' height='300' frameborder='0' style='border:0;' allowfullscreen=''></iframe>"
+
 window.JSMaps.maps.france = {
 	"config": {
 		"mapWidth": 598.939,
@@ -206,7 +208,7 @@ window.JSMaps.maps.france = {
 			"hoverColor": "#2e5596",
 			"selectedColor": "#2e5596",
 			"url": "http://jsmaps.io",
-			"text": "<h1>Paris</h1><br /><p>Prochainement</p>"
+			"text": paris
 		},
 		{
 			"name": "Le Mans",
